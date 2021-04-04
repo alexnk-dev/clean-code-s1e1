@@ -29,32 +29,32 @@
       </section>
       <section>
         <h3>Todo</h3>
-        <ul id="incompleteTasks">
-          <li>
+        <ul class="task__list task__list--incompleted" id="incompleteTasks">
+          <li class="task__item">
             <input class="task__status" type="checkbox" />
             <label class="task__name">Pay Bills</label>
             <input class="task__name" type="text" />
             <button class="btn__edit">Edit</button>
-            <button class="btn__delete"><img src="./remove.svg" alt="" /></button>
+            <button class="btn__delete"><img class="btn__delete--img" src="./remove.svg" alt="" /></button>
           </li>
-          <li class="editMode">
+          <li class="task__item editMode">
             <input class="task__status" type="checkbox" />
             <label class="task__name">Go Shopping</label>
             <input class="task__name" type="text" value="Go Shopping" />
             <button class="btn__edit">Save</button>
-            <button class="btn__delete"><img src="./remove.svg" alt="" /></button>
+            <button class="btn__delete"><img class="btn__delete--img" src="./remove.svg" alt="" /></button>
           </li>
         </ul>
       </section>
       <section>
         <h3>Completed</h3>
-        <ul id="completed-tasks">
-          <li>
+        <ul class="task__list task__list--completed" id="completed-tasks">
+          <li class="task__item">
             <input class="task__status" type="checkbox" checked />
             <label class="task__name">See the Doctor</label>
             <input class="task__name" type="text" />
             <button class="btn__edit">Edit</button>
-            <button class="btn__delete"><img src="./remove.svg" alt="" /></button>
+            <button class="btn__delete"><img class="btn__delete--img" src="./remove.svg" alt="" /></button>
           </li>
         </ul>
       </section>

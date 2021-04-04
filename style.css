@@ -64,8 +64,7 @@ button:hover {
   color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -74,6 +73,11 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
+
+label[for="new-task"] {
+  padding: 30px 0 10px;
+}
+
 input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -124,17 +128,17 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-button.btn__delete img {
+.btn__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.btn__delete img:hover {
+.btn__delete--img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+.task__list--completed label {
   text-decoration: line-through;
   color: #888;
 }
