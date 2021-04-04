@@ -18,8 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
-}
+  
+  .aaa {
+    text-align: center;
+  }
+  
 }
 .centered-main-page-element {
   display: block;
@@ -54,7 +57,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-   color: #3a3A3a;
+  color: #3a3A3a;
 }
 /* Heading */
 h3,
