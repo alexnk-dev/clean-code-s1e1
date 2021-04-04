@@ -10,10 +10,12 @@ body {
   display: block;
   text-align: right;
 }
-.aaa img {
+.aaa,
+img {
   width: 100%;
 }
-.aaa .more_inf {
+.aaa,
+.more_inf {
   font-family: fantasy, cursive;
 }
 
@@ -22,7 +24,7 @@ body {
   .aaa {
     text-align: center;
   }
-  
+
 }
 .centered-main-page-element {
   display: block;
@@ -41,10 +43,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button {
   outline: none;
 }
 button {
@@ -117,7 +121,7 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
   width: 226px;
 }
 button.delete img {
