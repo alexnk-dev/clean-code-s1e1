@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -19,12 +19,10 @@ img {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-  
+@media (max-width: 768px) {
   .header {
     text-align: center;
   }
-
 }
 .main--centered {
   display: block;
@@ -61,7 +59,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 /* Heading */
 h3 {
@@ -128,12 +126,12 @@ li > label {
 li > input[type="text"] {
   width: 226px;
 }
-.btn__delete img {
+.btn__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.btn__delete--img:hover {
+.btn__img:hover {
   transform: rotateZ(0);
 }
 
